@@ -1,0 +1,242 @@
+{
+  "model": "Logistic Regression",
+  "evaluation_split": "Test",
+  "test_count": 11883,
+  "misclassified_count": 1100,
+  "misclassified_percent": 9.2569,
+  "test_accuracy": 0.9074307834721872,
+  "false_positive_count": 559,
+  "false_negative_count": 541,
+  "clusters_by_error_type_and_content": [
+    {
+      "error_type": "False Negative",
+      "error_meaning": "positive review predicted as negative",
+      "content_cluster": "False_Negative_01",
+      "sample_count": 30,
+      "keywords": [
+        "نظرم",
+        "به نظرم",
+        "به",
+        "برای",
+        "بزرگتر",
+        "سایز"
+      ],
+      "example_comments": [
+        "اگه میخواهید چیز معمولی برای بچتون بخرید بدک نیست",
+        "به نظرم کیفیتش اومده پایین نسب به قبل",
+        "دوستان یه چیزه معمولی هستش  اندازه پولی که پرداخت مکنید انتظار داشته باشید"
+      ]
+    },
+    {
+      "error_type": "False Negative",
+      "error_meaning": "positive review predicted as negative",
+      "content_cluster": "False_Negative_02",
+      "sample_count": 31,
+      "keywords": [
+        "این",
+        "قیمت",
+        "در",
+        "با این",
+        "با",
+        "این قیمت"
+      ],
+      "example_comments": [
+        "3 برچسب دختر کفشدوزکی و یک برچسب کیتی بود. کیفیت متوسط ",
+        "دیگه این چسب امتحانش رو پس داده",
+        "در محصول پلمپ نیست و هیچ تاریخ و برچسبی هم نداشت"
+      ]
+    },
+    {
+      "error_type": "False Negative",
+      "error_meaning": "positive review predicted as negative",
+      "content_cluster": "False_Negative_03",
+      "sample_count": 55,
+      "keywords": [
+        "بود",
+        "از",
+        "پایین",
+        "قیمت",
+        "خیلی",
+        "بیرون"
+      ],
+      "example_comments": [
+        "خیلی ظریف بود ",
+        "من از اینکه پلمپ باز شده بود راضی نیستم",
+        "بعد از استفاده تا چند روزم بوش از رو لباس نمیره خیلی پخش بوی بالایی داره"
+      ]
+    },
+    {
+      "error_type": "False Negative",
+      "error_meaning": "positive review predicted as negative",
+      "content_cluster": "False_Negative_04",
+      "sample_count": 325,
+      "keywords": [
+        "که",
+        "بود",
+        "به",
+        "ولی",
+        "نیست",
+        "با"
+      ],
+      "example_comments": [
+        "با یه قیمت ناچیز میتونی تو خونه بند انداز رو تعمیر کنی",
+        "از چیزی که فکرشو میکردم بهتر بود",
+        "تغییراتی نداشت و جامع کامل بود"
+      ]
+    },
+    {
+      "error_type": "False Negative",
+      "error_meaning": "positive review predicted as negative",
+      "content_cluster": "False_Negative_05",
+      "sample_count": 36,
+      "keywords": [
+        "ولی",
+        "خیلی",
+        "نیست",
+        "روی",
+        "دیجی کالا",
+        "دیجی"
+      ],
+      "example_comments": [
+        "خشک نمیشه روی مو و مو حالت خیس داره ",
+        "بعد از زدن واکس سشوار بکشید بعد اسپری چسب مو استفاده کنید",
+        "روی جعبه سریال نامبر داشت. ولی از نظر کارایی ابزاری موجود نداشتم که کیفیتش اندازه گیری شود و هنوز استفاده نکردم. سریع به دستم رسید. ارزش خرید نسبت به قیمت..... است چون کالایی است که تولید آن پیچیدگی خاصی ندارد به نظر من و تولیدش هم نباید آنقدر کم باشد ."
+      ]
+    },
+    {
+      "error_type": "False Negative",
+      "error_meaning": "positive review predicted as negative",
+      "content_cluster": "False_Negative_06",
+      "sample_count": 64,
+      "keywords": [
+        "رنگ",
+        "من",
+        "دادم",
+        "سفارش",
+        "سفارش دادم",
+        "خیلی"
+      ],
+      "example_comments": [
+        "من اشتباهی میخواستم مشکی سفارش بدم بجاش نقره ای شد",
+        "جالب بود واسه بچه، فقط دم هواپیما هی کنده میشه چون برآمدگی ها رو خیلی کوچیک گرفتن و مدام در میاد.",
+        "جنس مناسب تابستان می باشد ولی بعضی از آنها دوخت کش دور کمر مناسبی ندارد و شکافته میشه"
+      ]
+    },
+    {
+      "error_type": "False Positive",
+      "error_meaning": "negative review predicted as positive",
+      "content_cluster": "False_Positive_01",
+      "sample_count": 87,
+      "keywords": [
+        "عالی",
+        "خوبه",
+        "استفاده",
+        "ولی",
+        "می",
+        "استفاده نکردم"
+      ],
+      "example_comments": [
+        "این عالی بود",
+        "ازینکه داخلش سفید بود واقعا بدم اومد و پشیمون شدم \r\nخیلی بد نیست و نسبت به قیمتش چون بیرون اینا صد بالا هستن ولی چون من از ی فروشنده دیگه مشکی خریده بودم و عالییی بود یکساله ک مرتب استفادش میکنم انتظار داشتم اینم مثل همون باشه",
+        "الان یه هفته ای میشه که دارم استفاده می کنم، تا الان که تاثیری نداشته، دوباره ناخن هام شکست، اگه توی مدت طولانی تری اثر داشت بهتون اطلاع میدم "
+      ]
+    },
+    {
+      "error_type": "False Positive",
+      "error_meaning": "negative review predicted as positive",
+      "content_cluster": "False_Positive_02",
+      "sample_count": 55,
+      "keywords": [
+        "قیمت",
+        "به",
+        "نسبت",
+        "نسبت به",
+        "مناسب",
+        "به قیمت"
+      ],
+      "example_comments": [
+        "قیمت کلاهم خوبه",
+        "با توجه به اینکه قیمت نسبتا بالایی داره\r\nلکه های لباس رو نبرد",
+        "به عنوان شانه تو جیبی می تونه خوب باشه"
+      ]
+    },
+    {
+      "error_type": "False Positive",
+      "error_meaning": "negative review predicted as positive",
+      "content_cluster": "False_Positive_03",
+      "sample_count": 41,
+      "keywords": [
+        "برای",
+        "خوبه",
+        "برای بچه",
+        "بچه",
+        "بچه ها",
+        "فقط"
+      ],
+      "example_comments": [
+        "برای مهدکودک خریدم. راضی بودم",
+        "برای بچه ها و بازی کردن باهاش خوبه. ولی اگر ماکت جمع آوری میکنید این اصلن برای شما نیست‌",
+        "برای بچه ها خوبه. نازکه یکم"
+      ]
+    },
+    {
+      "error_type": "False Positive",
+      "error_meaning": "negative review predicted as positive",
+      "content_cluster": "False_Positive_04",
+      "sample_count": 109,
+      "keywords": [
+        "خوب",
+        "بود",
+        "خوب بود",
+        "ولی",
+        "خیلی",
+        "جنس"
+      ],
+      "example_comments": [
+        "سایزش کوچیکتر از استاندارده یه سایز بزرگتر باید بردارید جنس و رنگش خوب بود",
+        "قبلاً قیمتش خوب بود الان نمیدونم چرا انقد گرون شده",
+        "کوچک ولی خوب بود"
+      ]
+    },
+    {
+      "error_type": "False Positive",
+      "error_meaning": "negative review predicted as positive",
+      "content_cluster": "False_Positive_05",
+      "sample_count": 58,
+      "keywords": [
+        "خیلی",
+        "خوبی",
+        "است",
+        "به",
+        "خوبه",
+        "داره"
+      ],
+      "example_comments": [
+        "دقیقا مثل عکسشه نسب به پولش خوبه",
+        "قیمتش خوبه ولی یه کم جنسش سخته اصلا رنگ خوبی نمیده ",
+        "۳ هفته است که به طور مداوم هر روز صبح و شب ازش استفاده میکنم و نه تنها حال پوستم رو خوب نکرده بلکه باعث ازیاد جوش و چروکای صورتم شده و به کل تاثیر بوتاکس پیشونیمو از بین برده.\r\nفقط بسته بندی خوبی داره که اونم چه فایده"
+      ]
+    },
+    {
+      "error_type": "False Positive",
+      "error_meaning": "negative review predicted as positive",
+      "content_cluster": "False_Positive_06",
+      "sample_count": 209,
+      "keywords": [
+        "در",
+        "از",
+        "هست",
+        "رو",
+        "کتاب",
+        "خیلی"
+      ],
+      "example_comments": [
+        "باید راهنمای خوبی داشته باشه",
+        "پیشنهاد میکنم وقت و اعصاب و هزینتون رو هدر نکنید",
+        "قشنگه، کیفیت زیادی نداره ولی پشیمون نمیشید."
+      ]
+    }
+  ],
+  "error_csv": "G:\\Projects\\NLP\\three\\digikala_sentiment_analysis\\logistic_regression_misclassified_test.csv",
+  "cluster_csv": "G:\\Projects\\NLP\\three\\digikala_sentiment_analysis\\logistic_regression_error_clusters.csv"
+}

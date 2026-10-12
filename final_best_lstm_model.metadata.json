@@ -1,0 +1,13 @@
+{
+  "format_version": 1,
+  "algorithm": "BiLSTM",
+  "train_fingerprint": "3ee9d1b8e9765f198cc13dd4106e1f2ebb8790d8160e540df5507e9cf11f05b6",
+  "validation_fingerprint": "4d5a645acd6e1fdaad58fbc38f14018a4a529dbee2eebe5b6d55d1591f2f567f",
+  "split": {
+    "train": 0.8,
+    "validation": 0.1,
+    "test": 0.1,
+    "random_state": 42
+  },
+  "model_sha256": "a20c38ab3c362c30acf9ab149d8ae44ea3a8c83161f83f3e10132e2fa7a05418"
+}
